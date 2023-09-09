@@ -1,15 +1,69 @@
-# apt:
-#   - htop
-#   - build-essential
-#   - curl 
-#   - lsb-release
-#   - wget
+apt:
+  - build-essential
+  - curl 
+  - lsb-release
+  - wget
+  - cargo
+  - checkinstall
+  - docker-compose
+  - exuberant-ctags
+  - flatpak
+  - fonts-font-awesome
+  - fonts-powerline
+  - fonts-roboto
+  - fzf
+  - git
+  - gnupg
+  - htop
+  - httpie
+  - inkscape
+  - inotify-tools
+  - jq
+  - libnotify-bin
+  - mc
+  - mtools
+  - net-tools
+  - nmap
+  - ntfs-3g
+  - openjdk-17-jdk
+  - openssh-server
+  - p7zip
+  - p7zip-full
+  - p7zip-rar
+  - pandoc
+  - parallel
+  - pv
+  - python3-pynvim
+  - ripgrep
+  - rsync
+  - thunderbird
+  - tlp
+  - unrar
+  - virtualbox
+  - virtualbox-dkms
+  - virtualbox-guest-additions-iso
+  - wireless-tools
+  - yadm
+  - yakuake
+  - zip
+  - zsh
+  - gimp
+  - meld  
 
 deb:
   - https://github.com/wimpysworld/deb-get/releases/download/0.3.9/deb-get_0.3.9-1_all.deb
   - https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megasync-xUbuntu_22.04_amd64.deb
   - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
-
 execute:
-  - deb-get install 
+  - deb-get install code
+  - deb-get install docker-ce
+  - deb-get install dropbox
+  - deb-get install git-delta
+  - deb-get install insomnia
+  - deb-get install lsd
+  - deb-get install obsidian
+  - deb-get install skypeforlinux
+  - deb-get install slack-desktop
+  - deb-get install spotify-client
+  - deb-get install brave-browser
